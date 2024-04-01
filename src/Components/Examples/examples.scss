@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.My-Textarea{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // border: 2px solid red;
+    padding: 30px 20px;
+
+    textarea{
+        width: 40%;
+        padding: 100px 50px;
+        border: 2px solid lightgray;
+
+    }
+
+    button{
+        width: 10%;
+        padding: 10px 15px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        color: #000;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+}
+
+
+.My-Phones{
+    display: flex;
+    gap: 20px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .My-Phones-Head{
+        display: flex;
+        gap: 5px;
+
+        .Phone-img{
+            width: 4%;
+        }
+    }
+
+    .My-Phones-Text{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+        .Listings{
+            padding: 10px 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+
+            p{
+                font-size: 15px;
+                font-family: sans-serif;
+                color: #000;
+                font-weight: bold;
+            }
+        }
+
+        .Total{
+            padding: 10px 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+
+            p{
+                font-size: 15px;
+                font-family: sans-serif;
+                color: #000;
+                font-weight: bold;
+            }
+        }
+
+        .Offer{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .Offer-btn{
+                padding: 10px 15px;
+                border: 1px solid rgb(76, 76, 243);
+                color: rgb(76, 76, 243);
+                border-radius: 5px;
+                font-size: 15px;
+                font-family: sans-serif;
+                font-style: normal;
+            }
+        }
+    }
+
+    
+}
